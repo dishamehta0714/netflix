@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 1100px;
+}
+
+.container {
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.1)
+    ), 
+    url(asset/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+.option {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 5%;
+}
+
+.sign {
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 300px;
+}
+
+
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.type {
+    width: 350px;
+    padding: 12px;
+    font-size: 16px;
+    margin-left: 400px;
+    background-color: rgba(0, 0, 0, 0.686);
+    align-items: start;
+    align-content: center;
+} 
+
+.start {
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+ .trending {
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.trend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-left: 20px;
+}
+
+.card {
+    width: 280px;
+    
+}
+
+
+.text {
+    padding: 10px;
+    font-size: 30px;
+    
+   
+}
+
+
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    padding: 40px;
+}
+
+.box {
+    background-color: #303030;
+    height: 280px;
+    width: 280px;
+    border-radius: 10px;
+    padding: 15px;
+   
+}
+
+.kids{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.computer {
+    width: 100px;
+    margin-left: 160px;
+    
+}
+
+.emoji {
+    width: 100px;
+    margin-left: 160px;
+}
+
+.style{
+    margin-left: 30px;
+}
+
+.faq-box {
+    background: #303030;
+    padding: 22px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.email{
+    margin: 60px;
+    margin-left: 430px;
+}
+
+ .email-box{
+
+    margin-left:500px;
+    
+    
+ }
+ 
+    
